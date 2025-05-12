@@ -1,0 +1,38 @@
+/* (Week 2) Section 1: Getting Started with CSS, Lesson 2: External CSS file */
+h1 {
+    color: red;
+    /* (Week 2) Section 1: Getting Started with CSS, Lesson 3: CSS Fonts */
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+    color: coral;
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    color : silver;
+    font-family: fantasy;
+}
+
+/* (Week 2) Section 1: Getting Started with CSS, Lesson 4: List Bullet */
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+ 
+/* my mods */
+
+ul li {
+    color : silver;
+    font-family: 'Open sans', sans-serif;
+}
+
+ol li {
+    color : silver;
+    font-family: 'Open sans', sans-serif;
+}
