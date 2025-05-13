@@ -7,18 +7,30 @@ h1 {
 
 h2 {
     color: coral;
+    text-shadow: darkkhaki 2px 0px 4px;
     font-family: 'Anton', sans-serif;
 }
 
+/* Paragraph text in <body> */ 
 p {
     color : silver;
     font-family: 'Roboto',fantasy;
 }
 
+p a {
+    color: silver;
+    text-decoration: none; /*Removes underline from hyperlink */
+}
+
+p a:hover {
+    color: #CD5700; /* Tawny */
+}
+
 /* (Week 2) Section 1: Getting Started with CSS, Lesson 4: List Bullet */
 
 ul {
-    list-style-type: square;
+    /* (Week 2) Section 1: Getting Started with CSS, Lesson 5: List Bullet Image */
+    list-style-image: url(/images/pointer-icon3D.png); /* 16px */
 }
 
 ol {
@@ -29,10 +41,43 @@ ol {
 
 ul li {
     color : silver;
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ol li {
     color : silver;
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* (Week 2) Section 1: Getting Started with CSS, Lesson 6: Making a Beautiful Menu Bar */
+.topnav a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none; /*Removes underline from hyperlink */
+    background-color: #F0E68C; /* Khaki */
+}
+
+.topnav a:hover {
+    background-color: #CD5700; /* Tawny */
+    color: #ffffff; /* White */
+}
+
+/* (Week 2) Section 1: Getting Started with CSS, Lesson 7: Working with Div Boxes */
+#menu-bar a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none; /*Removes underline from hyperlink */
+    background-color: #F0E68C; /* Khaki */
+}
+
+#menu-bar a:hover {
+    background-color: #CD5700; /* Tawny */
+    color: #ffffff; /* White */
+}
+/*Lesson 7 done!*/
+.footLink a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none; /*Removes underline from hyperlink */
+}
+
+.footLink a:hover {
+    color:  #CD5700; /* Tawny */
 }
