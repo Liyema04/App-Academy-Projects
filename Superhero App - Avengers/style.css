@@ -18,6 +18,30 @@ body {
 
 }
 
+#avenger-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: 'Avengeance', sans-serif;
+}
+
+#avenger-header > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+#avenger-header > a:hover {
+    color: rgba(217, 13, 13, 0.548);
+    font-size: 50px;
+    text-shadow: #9e9e9e;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+}
+
 .gallery { 
     display: flex;
     flex-wrap: wrap;
@@ -118,7 +142,7 @@ p {
 }
 
 .about-card {
-    background-color: rgb(108, 99, 236);
+    background-color: rgba(29, 29, 29, 0.555); /*transparent grey*/
     border-left: 8px solid #9e9e9e;
     padding: 15px;
     border-radius: 6px;
@@ -154,7 +178,7 @@ p {
 }
 
 .contact-card {
-    background-color: rgb(108, 99, 236);
+    background-color: rgba(29, 29, 29, 0.555); /*transparent grey*/
     border-left: 8px solid #9e9e9e;
     padding: 15px;
     border-radius: 6px;
@@ -181,7 +205,7 @@ p {
     color: #ffffff;
 }
 
-.contact-card > p > a {
+/*.contact-card > p > a {
     color: #ffffff;
     text-decoration: none;
     font-style: italic;
@@ -190,7 +214,136 @@ p {
 .contact-card > p > a:hover {
     color: #333;
     text-decoration: underline;
+}*/
+
+/* Contact_Social icons */
+.social-icons {
+    overflow: hidden;
+    padding: 16px;
+    margin: 16px;
 }
+
+.social-icons > a  {
+    display: inline-block;
+    background-color: #222a3a; /* Choose your color */
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+.social-icons > a:hover {
+    background-color: #6495ed; /* Highlight on hover */
+}
+
+.social-icons > a > img {
+    text-decoration: none;
+    filter: drop-shadow(0px 100px 0 #6495ed);
+    transform: translateY(-100px);
+}
+
+.social-icons > a:hover > img {
+    filter: drop-shadow(0px 100px 0 #fae46ab4);
+    transform: translateY(-100px);
+}
+
+/*Contact_Tel*/
+.tel {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.tel a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tel a:hover {
+    color: #fae46ab4;
+}
+
+
+
+/*Avenger Bio (styling) */
+#avenger-bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bio-span {
+    display: inline-block;
+    padding: 4px 6px;
+    color: #ffffff;    
+    background-color: rgba(124, 0, 0, 0.301); /*transparent red*/
+    border: 2px solid #6495ed;
+    border-radius: 6px;
+    font-weight: bolder;
+    width: 55%;
+}
+
+.bio-span > p {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;    
+}
+
+.bio-span > p > span {
+    color: rgba(10, 153, 209, 0.712);
+    font-weight: 700;
+    font-size: 22px;
+    font-style: italic;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Avenger Power-Stats (styling) */
+#avenger-power_stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.power-span {
+    display: inline-block;
+    padding: 4px 6px;    
+    color: #ffffff;    
+    background-color: rgba(29, 29, 29, 0.555); /*transparent grey*/
+    border: 2px solid cornflowerblue;
+    border-radius: 6px;
+    font-weight: bolder;
+    width: 55%;
+}
+
+.power-span > p {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;        
+}
+
+.power-span > p > span {
+    color: rgba(255, 229, 80, 0.582);
+    font-weight: 700;
+    font-size: 22px;
+    font-style: italic;
+    display: inline-block;
+    margin-right: 10px;        
+}
+
 /* My modifications Adding a Footer */
 footer {
     margin-top: auto;
