@@ -38,7 +38,6 @@ body {
     color: rgba(217, 13, 13, 0.548);
     font-size: 50px;
     text-shadow: #9e9e9e;
-    text-decoration: underline;
     transition: all 0.3s ease-in-out;
 }
 
@@ -225,7 +224,6 @@ p {
 
 .social-icons > a  {
     display: inline-block;
-    background-color: #222a3a; /* Choose your color */
     border-radius: 50%;
     padding: 10px;
     margin: 0 8px;
@@ -282,7 +280,7 @@ p {
     border: 2px solid #6495ed;
     border-radius: 6px;
     font-weight: bolder;
-    width: 55%;
+    width: 65%;
 }
 
 .bio-span > p {
@@ -322,7 +320,7 @@ p {
     border: 2px solid cornflowerblue;
     border-radius: 6px;
     font-weight: bolder;
-    width: 55%;
+    width: 65%;
 }
 
 .power-span > p {
