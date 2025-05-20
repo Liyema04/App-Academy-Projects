@@ -343,28 +343,28 @@ p {
 }
 
 /* Responsive Design for Mobile */
-@media (max-width: 600px) {
+@media (max-width: 500px) { /*600*/
     .about-card,
     .contact-card,
     .bio-span,
     .power-span {
-        width: 98%;
+        width: 64%; /*98*/
         min-width: unset;
-        max-width: 100%;
+        max-width: 80%; /*100*/
         margin: 8px 0;
         padding: 10px 4px;
         font-size: 16px;
     }
 
     .gallery img {
-        width: 98%;
-        max-width: 100%;
+        width: 64%; /*98*/
+        max-width: 80%; /*100*/
     }
 
     #menu > a {
         display: block;
         margin: 6px auto;
-        width: 90%;
+        width: 70%; /*90*/
         font-size: 16px;
         padding: 8px 0;
     }
