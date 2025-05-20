@@ -25,7 +25,7 @@ body {
     text-align: center;
     margin-top: 25px;
     margin-left: 25px;
-    font-family: 'Avengeance', sans-serif;
+    font-family: 'Bangers', sans-serif;
 }
 
 #avenger-header > a {
@@ -66,7 +66,7 @@ body {
 
 /* More styling */
 h2 {
-    font-family: Impact, fantasy;
+    font-family: 'Bangers', sans-serif;
     text-align: center;
     font-size: 30px;
     color: cornflowerblue;
@@ -93,7 +93,7 @@ h3 {
 }
 
 h4 {
-    font-family: Impact, fantasy;
+    font-family: 'Bangers', sans-serif;
     font-size: 20px;
     font-style: italic;
     color: cornflowerblue; 
