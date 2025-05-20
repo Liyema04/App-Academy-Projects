@@ -342,6 +342,43 @@ p {
     margin-right: 10px;        
 }
 
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+    .about-card,
+    .contact-card,
+    .bio-span,
+    .power-span {
+        width: 98%;
+        min-width: unset;
+        max-width: 100%;
+        margin: 8px 0;
+        padding: 10px 4px;
+        font-size: 16px;
+    }
+
+    .gallery img {
+        width: 98%;
+        max-width: 100%;
+    }
+
+    #menu > a {
+        display: block;
+        margin: 6px auto;
+        width: 90%;
+        font-size: 16px;
+        padding: 8px 0;
+    }
+
+    h2, h3, h4 {
+        font-size: 18px;
+    }
+
+    .social-icons > a {
+        padding: 6px;
+        margin: 0 4px;
+    }
+}
+
 /* My modifications Adding a Footer */
 footer {
     margin-top: auto;
