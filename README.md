@@ -6,7 +6,7 @@ FNB App Academy has begun! I'll be sharing all my progress, along with projects 
 
 # Week 2 (Superhere App 🌐) -
 <!-- Use a repo-relative path (move the image to assets/images/home_page.png) -->
-![Home page screenshot](./assets/images/home_page.png)
+![Home page screenshot](./public/images/home_page.png)
 Complete ✅
 
 ### Tech stack used
