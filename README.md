@@ -5,7 +5,8 @@ FNB App Academy has begun! I'll be sharing all my progress, along with projects 
     Complete ✅
 
 # Week 2 (Superhere App 🌐) -
-![Alt text](C:\Users\liyem\Documents\GitHub\App-Academy-Projects\Superhero App - Avengers\public\images\home_page.png)
+<!-- Use a repo-relative path (move the image to assets/images/home_page.png) -->
+![Home page screenshot](./assets/images/home_page.png)
 Complete ✅
 
 ### Tech stack used
